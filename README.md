@@ -21,7 +21,7 @@ El usuario puede:
 
 Haz clic en la imagen para ver el funcionamiento completo del programa 👇
 
-[![Ver video de demostración]([docs/interfaz_bus.mp4](https://youtu.be/kEBTkxXAOrs))
+[![Ver video de demostración](https://www.youtube.com/watch?v=kEBTkxXAOrs)
 
 > 🎬 En el video se muestra el proceso de introducción de datos, selección de mes e importe, validación de campos y mensaje final de confirmación mediante `JOptionPane`.
 
