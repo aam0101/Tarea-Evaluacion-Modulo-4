@@ -14,6 +14,11 @@ El usuario puede:
 - Seleccionar el mes del abono 🗓️  
 - Elegir el importe de la recarga 💰  
 - Confirmar la operación con un clic ✨  
+---
+
+## 📸 **Vista previa de la interfaz**
+
+🪟 ![Vista previa](docs/interfaz_bus.png)
 
 ---
 
@@ -142,12 +147,6 @@ mvn exec:java -Dexec.mainClass=com.example.recarga.RecargaAbonoBus
 
 > ✅ Finalizado — módulo **Bus** totalmente funcional y validado.  
 > 🚧 Módulo **Tren** en desarrollo por otro integrante del equipo.
-
----
-
-## 📸 **Vista previa de la interfaz**
-
-🪟 ![Vista previa](docs/interfaz_bus.png)
 
 ---
 
