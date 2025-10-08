@@ -138,7 +138,6 @@ mvn exec:java -Dexec.mainClass=com.example.recarga.RecargaAbonoBus
 
 ## 📸 **Vista previa de la interfaz**
 
-*(Opcional: aquí puedes insertar una captura del formulario si lo deseas)*  
 🪟 ![Vista previa](docs/interfaz_bus.png)
 
 ---
