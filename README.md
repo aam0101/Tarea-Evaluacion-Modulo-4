@@ -17,6 +17,16 @@ El usuario puede:
 
 ---
 
+## 🎥 **Video de demostración**
+
+Haz clic en la imagen para ver el funcionamiento completo del programa 👇
+
+[![Ver video de demostración](docs/interfaz_bus.mp4)
+
+> 🎬 En el video se muestra el proceso de introducción de datos, selección de mes e importe, validación de campos y mensaje final de confirmación mediante `JOptionPane`.
+
+---
+
 ## 🧩 **Requisitos técnicos implementados**
 
 | Requisito | Cumplido | Descripción |
@@ -146,4 +156,3 @@ mvn exec:java -Dexec.mainClass=com.example.recarga.RecargaAbonoBus
 
 Este proyecto se entrega con fines educativos.  
 Libre para uso académico, modificación y aprendizaje. 🧩
-
