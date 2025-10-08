@@ -123,9 +123,9 @@ mvn exec:java -Dexec.mainClass=com.example.recarga.RecargaAbonoBus
 
 ## 👨‍💻 **Autoría**
 
-- 🧑‍💻 *Desarrollador del módulo Bus:* **[Tu nombre aquí]**  
+- 🧑‍💻 *Desarrollador del módulo Bus:* **[Alberto Alcalde Montero]**  
 - 🚆 *Módulo Tren:* desarrollado por otro compañero (proyecto independiente).  
-- 🧠 Proyecto realizado para la asignatura de **Programación en Java (Interfaz Gráfica)**.  
+- 🧠 Proyecto realizado para la asignatura de **Desarrollo de interfaces**.  
 
 ---
 
