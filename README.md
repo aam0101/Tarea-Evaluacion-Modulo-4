@@ -22,10 +22,6 @@ El usuario puede:
 Puedes ver el video completo del funcionamiento del programa aquí:  
 👉 [Ver video en YouTube](https://www.youtube.com/watch?v=kEBTkxXAOrs)
 
-O haz clic directamente en la imagen para abrirlo 👇
-
-[![Ver video de demostración](https://img.youtube.com/vi/ID_DEL_VIDEO/0.jpg)](https://www.youtube.com/watch?v=ID_DEL_VIDEO)
-
 > 🎬 En el video se muestra el proceso de introducción de datos, selección de mes e importe, validación de campos y mensaje final de confirmación mediante `JOptionPane`.
 
 ---
