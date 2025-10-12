@@ -180,7 +180,7 @@ El usuario puede:
 
 ## 📸 **Vista previa de la interfaz**
 
-🪟 ![Vista previa](docs/interfaz_tren.png)
+🪟 ![Vista previa]([docs/interfaz_tren.png](https://github.com/aam0101/Tarea-Evaluacion-Modulo-4/blob/main/FotoTren/Captura%20de%20pantalla%202025-10-12%20220749.png))
 
 ---
 
