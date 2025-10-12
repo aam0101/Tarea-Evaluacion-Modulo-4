@@ -150,7 +150,139 @@ mvn exec:java -Dexec.mainClass=com.example.recarga.RecargaAbonoBus
 
 ---
 
+
 ## 💬 **Licencia**
 
 Este proyecto se entrega con fines educativos.  
 Libre para uso académico, modificación y aprendizaje. 🧩
+
+
+---
+#🚆 Recarga de Abono de Transporte — Módulo Tren
+
+💡 Proyecto desarrollado por Alejandro Rolón en IntelliJ IDEA con Maven, utilizando Swing Form (GUI Designer).
+Este módulo forma parte del proyecto “Recarga de Abono de Transporte”, junto al módulo de Bus realizado por otro compañero.
+
+#🎯 Descripción del ejercicio
+
+El objetivo de este módulo es diseñar una interfaz gráfica sencilla y funcional para la recarga del abono mensual de transporte TREN, utilizando únicamente los componentes estándar de Java Swing (sin dependencias externas como JCalendar).
+
+El usuario puede:
+
+Introducir el número de su tarjeta 💳
+
+Elegir el mes de recarga a través de un menú desplegable (JComboBox) 🚉
+
+Seleccionar el importe 💰
+
+Confirmar la operación con un clic ✨
+
+##📸 Vista previa de la interfaz
+
+🪟
+
+##🎥 Video de demostración
+
+Puedes ver el video del funcionamiento del programa aquí:
+👉 Ver video en YouTube
+
+##🎬 En el video se muestra el proceso de introducción de datos, selección del mes e importe, validación de campos y mensaje final de confirmación con JOptionPane.
+
+##🧩 Requisitos técnicos implementados
+Requisito	Cumplido	Descripción
+🗓️ Selector de mes (JComboBox)	✅	Permite elegir el mes sin usar librerías externas.
+🏷️ Etiquetas (JLabel)	✅	Indican los campos de tarjeta, mes e importe.
+🔘 Botones (JButton)	✅	“Recargar” y “Cancelar” con eventos.
+💬 Cuadro de diálogo (JOptionPane)	✅	Confirma la recarga mostrando el mes elegido.
+🧮 Validación de campos	✅	Comprueba que se introduzca un número de tarjeta.
+💡 Tooltip	✅	Botones con ayuda contextual (“Recargar el abono seleccionado”).
+🔒 Confirmación al cerrar	✅	Aviso antes de salir de la aplicación.
+🖼️ Icono personalizado	✅	Icono de tren en la ventana principal.
+🧠 Funcionamiento
+
+El usuario introduce su número de tarjeta.
+
+Selecciona el mes desde un JComboBox con los nombres de los meses.
+
+Elige el importe de recarga.
+
+Pulsa “Recargar”.
+→ Se muestra un JOptionPane confirmando la operación.
+
+Si el usuario intenta cerrar la ventana, aparece una alerta para confirmar la salida.
+
+##🧱 Estructura del proyecto
+RecargaAbonoTren/
+├── pom.xml                            # Configuración Maven
+├── README.md                          # Este archivo
+└── src/
+    └── main/
+        ├── java/
+        │   └── com/example/recarga/
+        │       ├── RecargaAbonoTren.java   # Lógica principal y eventos
+        │       └── RecargaAbonoTren.form   # Interfaz creada en GUI Designer
+        └── resources/
+            └── icons/
+                └── tren.png                 # Icono del módulo Tren
+
+##⚙️ Dependencias Maven
+
+Solo se utiliza la librería de soporte para formularios de IntelliJ:
+
+<dependencies>
+  <!-- Runtime necesario para formularios GUI de IntelliJ -->
+  <dependency>
+    <groupId>com.intellij</groupId>
+    <artifactId>forms_rt</artifactId>
+    <version>7.0.3</version>
+  </dependency>
+</dependencies>
+
+##🚀 Cómo ejecutar
+
+Requisitos previos:
+
+##☕ Java 8 o superior
+
+🧰 Maven 3.8+
+
+Abre el proyecto en IntelliJ IDEA (como proyecto Maven).
+
+Ejecuta desde IntelliJ o la terminal:
+
+mvn clean package
+mvn exec:java -Dexec.mainClass=com.example.recarga.RecargaAbonoTren
+
+🪄 Características destacadas
+
+✨ Interfaz limpia: diseño equilibrado con GridLayoutManager y distribución clara.
+🧩 Componentes Swing nativos: JLabel, JButton, JTextField, JComboBox.
+💬 Interacción fluida: validaciones y mensajes dinámicos.
+🔔 Eventos de ventana: aviso antes de cerrar la aplicación.
+🎨 Iconografía personalizada: tren.png como distintivo del módulo.
+
+🧠 Ejemplo de flujo
+
+1️⃣ El usuario abre la aplicación.
+2️⃣ Introduce el número de tarjeta y selecciona el mes.
+3️⃣ Pulsa “Recargar”.
+
+✅ “Su abono de transporte de Tren ha sido recargado para el mes de: Marzo.”
+4️⃣ El mensaje confirma la operación y la aplicación continúa activa.
+
+👨‍💻 Autoría
+
+🚆 Desarrollador del módulo Tren: Alejandro Rolón
+
+🚌 Módulo Bus: desarrollado por otro compañero.
+
+🧠 Proyecto realizado para la asignatura de Desarrollo de Interfaces.
+
+🏁 Estado del proyecto
+
+✅ Finalizado — módulo Tren completamente funcional, probado y sin dependencias externas.
+
+💬 Licencia
+
+Proyecto educativo creado para fines académicos.
+Libre para uso, modificación y aprendizaje. 🎓
